@@ -1,0 +1,57 @@
+header{
+	text-align: center;
+	text-decoration-style: initial;
+	font-style: italic;
+	background-repeat: no-repeat;
+	background-color: #ffccff;
+	padding-right: 20px;
+	padding-left: 20px;
+	/*padding: 50px;*/
+
+}
+
+.container{
+	background-color: #ffccff;
+	padding: 300px;
+	margin: auto;
+	padding-top: 10px;
+	padding:200px;
+}
+.me{
+	text-decoration-style: none;
+	font color:pink;
+	text-align: center;
+	background-color:black;
+	font-style: italic;
+}
+body{
+	text-align: center;
+	/*background-image:url("dedi.jpg");
+    background-filter:alpha(opacity=0.5);
+	background-position:center;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    z-index:-1;*/
+    background-color: #4d004d;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: normal;
+
+
+	
+}
+.img-circle {
+    border-radius: 50%;
+    float:left;
+    width: 4%;
+    height: 20%
+    margin-left:50px;
+
+   }
+   img{
+   	size: 20%;
+   }
+
+
+ 
