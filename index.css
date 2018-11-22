@@ -1,4 +1,4 @@
-header{
+/*header{
 	text-align: center;
 	text-decoration-style: initial;
 	font-style: italic;
@@ -6,16 +6,47 @@ header{
 	background-color: #ffccff;
 	padding-right: 20px;
 	padding-left: 20px;
-	/*padding: 50px;*/
+}*/
+img{
+	width:20%;
+	height: 50%;
+	
+}
+div {
+  width: 1000px;
+  height: 500px;
+  display: all;
+  position: center;
+}
 
+div:after {
+  content: "";
+  background: url(dammy.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+  /*z-index: -1;   
+  /*background-repeat: no-repeat;*/
+
+
+
+
+}
+h1{
+	font-size:30px;
 }
 
 .container{
-	background-color: #ffccff;
+	/*background-color: #ffccff;*/
 	padding: 300px;
 	margin: auto;
 	padding-top: 10px;
-	padding:200px;
+	padding:300px;
+	position: center;
 }
 .me{
 	text-decoration-style: none;
@@ -26,17 +57,18 @@ header{
 }
 body{
 	text-align: center;
-	/*background-image:url("dedi.jpg");
-    background-filter:alpha(opacity=0.5);
+	/*background-image:url("dammy.jpg");
+    background-filter:alpha(opacity=10);
 	background-position:center;
     background-repeat: no-repeat;
     background-size: 1500px;
-    z-index:-1;*/
-    background-color: #4d004d;
+    z-index:-1;
+    /*background-color: #4d004d;
     padding-right: 20px;
     padding-left: 20px;
     font-size: 30px;
-    font-weight: normal;
+    font-weight: normal;*/
+   
 
 
 	
